@@ -7,6 +7,7 @@ public class Pong extends JFrame {
 	private final static int WINDOW_HEIGHT = 600;
 	
 	public Pong() {
+			
 			setTitle(WINDOW_TITLE);
 			setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
 			setResizable(false);
@@ -16,6 +17,7 @@ public class Pong extends JFrame {
 		}
 	
 	public static void main(String[] args) {
+		
 		javax.swing.SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
 				new Pong();				
